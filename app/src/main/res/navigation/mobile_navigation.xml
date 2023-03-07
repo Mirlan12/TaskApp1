@@ -25,7 +25,12 @@
 
     <fragment
         android:id="@+id/taskFragment"
-        android:name="com.example.taskapp.TaskFragment"
+        android:name="com.example.taskapp.ui.task.TaskFragment"
         android:label="fragment_task"
         tools:layout="@layout/fragment_task" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.taskapp.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>
