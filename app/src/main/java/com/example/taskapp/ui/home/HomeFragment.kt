@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.setFragmentResultListener
 import androidx.navigation.fragment.findNavController
 import com.example.taskapp.R
-import com.example.taskapp.Task
+import com.example.taskapp.model.Task
 import com.example.taskapp.databinding.FragmentHomeBinding
 import com.example.taskapp.ui.task.TaskFragment
 

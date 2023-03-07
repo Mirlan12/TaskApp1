@@ -1,4 +1,4 @@
-package com.example.taskapp
+package com.example.taskapp.model
 
 data class Task(
     val title: String? = null,
