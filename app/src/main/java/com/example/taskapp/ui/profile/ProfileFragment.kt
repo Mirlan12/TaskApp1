@@ -45,9 +45,12 @@ class ProfileFragment : Fragment() {
         pref = Pref(requireContext())
         binding.etName.setText(pref.getName())
         binding.avatarAccount.loadImage(pref.getImage())
+        binding.etAge.setText(pref.getAge())
+        binding.avatarAccount.loadImage(pref.getImage())
 
         binding.etName.addTextChangedListener {
         pref.saveName(binding.etName.text.toString())
+            pref.saveAge(binding.etAge.text.toString())
         }
 
         binding.cvImg.setOnClickListener {
